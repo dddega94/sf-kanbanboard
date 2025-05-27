@@ -1,0 +1,124 @@
+p {
+    margin: 3px 0;
+    padding: 12px;
+}
+
+.cards {
+    background-color: #0079BF;
+}
+
+.cardItem {
+    display: flex;
+    
+}
+
+.cardItem p {
+    overflow: hidden;
+    margin-right: 5px;
+}
+
+
+.taskName {
+    font-size: 18px;
+}
+
+.card_backlog {
+    flex: 0 1 25%;
+    background-color: #EBECF0;
+    margin: 20px 12px;
+    border-radius: 10px;
+    height: 540px;
+    overflow-y: auto;
+}
+
+
+.card_finished {
+    flex: 0 1 25%;
+    background-color: #EBECF0;
+    margin: 20px 12px;
+    border-radius: 10px;
+    height: 540px;
+    overflow-y: auto
+}
+
+.card_progress {
+    flex: 0 1 25%;
+    background-color: #EBECF0;
+    margin: 20px 12px;
+    border-radius: 10px;
+    height: 540px;
+    overflow-y: auto
+}
+
+.card_ready {
+    flex: 0 1 25%;
+    background-color: #EBECF0;
+    margin: 20px 12px;
+    border-radius: 10px;
+    height: 540px;
+    overflow-y: auto
+}
+
+
+.item {
+    border: 1px solid black;
+    border-radius: 15px;
+    display: block;
+    margin: 15px;
+    background: #EBECF0;
+}
+
+@media (max-width: 912px) {
+    .cardItem {
+        flex-wrap: wrap;
+    }
+
+    .card_backlog {
+        flex: 0 1 50%;
+        max-width: 46%;
+    }
+
+    .card_finished {
+        flex: 0 1 50%;
+        max-width: 46%;
+    }
+
+    .card_progress {
+        flex: 0 1 50%;
+        max-width: 46%;
+    }
+
+    .card_ready {
+        flex: 0 1 50%;
+        max-width: 46%;
+    }
+}
+
+@media (max-width: 610px) {
+
+    .card_backlog {
+        flex: 0 1 100%;
+        max-width: 100%;
+    }
+
+    .card_finished {
+        flex: 0 1 100%;
+        max-width: 100%;
+    }
+
+    .card_progress {
+        flex: 0 1 100%;
+        max-width: 100%;
+    }
+
+    .card_ready {
+        flex: 0 1 100%;
+        max-width: 100%;
+    }
+}
+
+.active {
+    color: rgb(186, 12, 202);
+    background-color: #0079BF;
+
+}

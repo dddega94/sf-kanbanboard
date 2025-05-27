@@ -1,0 +1,14 @@
+.select {
+    display: block;
+    width: 93%;
+    margin: 0 auto;
+    border-radius: 5px;
+    font: inherit;
+    font-size: 18px;
+    border: none;  
+    
+}
+
+.option {
+    width: 93%;
+}

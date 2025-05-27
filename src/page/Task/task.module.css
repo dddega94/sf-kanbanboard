@@ -1,0 +1,46 @@
+.body {
+    background-color: #0079BF;
+    padding: 28px;
+}
+
+.task {
+    background-color: #fff;
+    font-family: 'Roboto';
+    height: 550px;
+    border-radius: 5px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 28px;
+}
+
+.name {    
+    font-size: 24px;
+    line-height: 28.13px;
+    
+}
+
+.status {
+    font-size: 14px;
+}
+
+.description {
+    font-size: 18px;
+    padding: 0 28px 40px 28px;
+    width: 621px;
+}
+
+.close {
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.input {
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 18px;
+    width: 90%;
+    font-family: inherit;
+}

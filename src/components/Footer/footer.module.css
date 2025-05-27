@@ -1,0 +1,20 @@
+.footer {
+    background-color: #0067A3;
+    min-height: 55px;
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto';
+    font-size: 20px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.tasks {
+    display: flex;
+}
+
+.active {
+    padding-right: 35px;
+}

@@ -1,0 +1,10 @@
+.item {
+    background-color: #fff;
+    margin: 12px;
+    border-radius: 5px;
+}
+
+.task {
+    font-size: 18px;
+    padding: 11px 8px;
+}

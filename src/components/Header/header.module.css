@@ -1,0 +1,68 @@
+.header {
+    background-color: #0067A3;
+    min-height: 55px;
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    font-family: 'Roboto';
+    font-size: 28px;
+    line-height: 33px;
+    color: white;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.user__logo {
+    min-height: 38px;
+    min-width: 38px;
+    background-color: #fff;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.user__logo_img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 3px;
+}
+
+
+.user__drop_arrow {
+    padding: 0 6px;
+    cursor: pointer;
+}
+
+.user__drop_arrow_active {
+    padding: 0 6px;
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+
+.menu {
+    position: absolute;
+    top: 120%;
+    left: -100%;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 134px;
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+
+.p {
+    padding: 3px;
+    cursor: pointer; 
+    align-items: center;   
+}
+
+.p:hover {
+    color: rgb(0, 17, 255);
+}
